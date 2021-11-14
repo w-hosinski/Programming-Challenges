@@ -1,0 +1,25 @@
+<!--
+Find the maximum Sum Subarray of Size K
+
+Lösung:
+    - finde summe von den ersten K einträgen
+    - setze maxSum = der Summe und maxIndex = 0 
+    - for loop von i=0 bis arr.length-K
+    - in jeder interation von sum -arr[i] und +arr[i+K]
+    - falls größer als maxSum, maxSum überschreiben und maxIndex merken
+    - nach ende der loop, return subarray von arr[maxIndex] mit länge K  
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="maximumSubarray.js"></script>
+</body>
+</html>

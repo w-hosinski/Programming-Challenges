@@ -3,8 +3,8 @@
     1. Die ersten zwei Arrays variblen zuweisen
     2. Duplikate entfernen
     3. Alles in ein array combinieren und sortieren
-    4. Nach dublikaten suchen und diese entfernen
-    5. Falls es mehr als 2 Arrays sind: Gefiltertes Array der ersten Array variable zuweise und dem nächsten Array die zweite varible
+    4. Nach duplikaten suchen und diese entfernen
+    5. Falls es mehr als 2 Arrays sind: Gefiltertes Array der ersten Array variable zuweisen und dem nächsten Array die zweite varible
 */
 const sym = arrs => {
     let firstArr = arrs[0]
